@@ -1,0 +1,6 @@
+entorno/
+__pycache__/
+*.pyc
+api/base.py
+visualizacion/config.py
+.env
