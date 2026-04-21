@@ -18,6 +18,9 @@ Antes de iniciar la práctica considerar
 * En su máquina local tener instalado python y un manejador de entornos
 * En su máquina local instalar docker (MUY IMPORTANTE), para ello, revisar la información del archivo llamado **instalacion_docker_ubuntu_24_04.md**
 
+### CAPTURA EVIDENCIA 
+<img width="1192" height="870" alt="imagen" src="https://github.com/user-attachments/assets/39fcbde4-3fbe-40e5-a9be-52c0697c4f1b" />
+
 ---
 
 # PARTE 1: Desarrollo local (entorno local)
