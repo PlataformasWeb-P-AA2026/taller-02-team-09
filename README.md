@@ -75,9 +75,14 @@ INSERT INTO empleados VALUES
 ## 3. API FastAPI
 Crear un entorno con virtualenv
 
+### CAPTURA EVIDENCIA 
+<img width="1198" height="747" alt="imagen" src="https://github.com/user-attachments/assets/faa9754c-edc0-4ea3-9506-7f572b98bc32" />
 Crear carpeta api/
+### CAPTURA EVIDENCIA 
+<img width="400" height="93" alt="imagen" src="https://github.com/user-attachments/assets/a8126755-8ab6-4e28-a66e-8cdce1afd979" />
 
 Crear archivo main.py:
+
 
 ```
 from fastapi import FastAPI
@@ -103,6 +108,8 @@ def empleados():
 
     return [{"nombre":d[0],"departamento":d[1],"salario":d[2]} for d in datos]
 ```
+### CAPTURA EVIDENCIA 
+<img width="793" height="553" alt="imagen" src="https://github.com/user-attachments/assets/e46ddee9-9b92-4a41-b28e-57fb7aa90a76" />
 
 Instalar:
 
@@ -121,6 +128,9 @@ Probar:
 ```
 http://127.0.0.1:8000/empleados
 ```
+### CAPTURA EVIDENCIA 
+<img width="844" height="444" alt="imagen" src="https://github.com/user-attachments/assets/efbc1ca9-1d54-480e-8014-a4fd5d67ea5e" />
+<img width="785" height="224" alt="imagen" src="https://github.com/user-attachments/assets/a0f341d3-d9e1-4c54-8834-441172571301" />
 
 ---
 
@@ -144,6 +154,9 @@ df = pd.DataFrame(data)
 st.dataframe(df)
 st.write(df["salario"].mean())
 ```
+### CAPTURA EVIDENCIA 
+<img width="636" height="532" alt="imagen" src="https://github.com/user-attachments/assets/86a38601-d23b-468e-9530-5e3ccbbdc4ba" />
+
 
 Instalar:
 
@@ -157,6 +170,8 @@ Ejecutar:
 ```
 streamlit run app.py
 ```
+### CAPTURA EVIDENCIA 
+<img width="1849" height="1112" alt="imagen" src="https://github.com/user-attachments/assets/f8a7c4bf-8528-4343-b6e1-f99a1561f677" />
 
 ## 5. Probar que todo funcione
 
@@ -173,6 +188,7 @@ streamlit run app.py
 * La configuración de la base de datos debe estar en un archivo llamado base.py
 * La configuración de la URL del API, en la visualización, debe estar en un archivo llamado config.py
 * Estos dos archivos no deben estar en la dinámica de git, agregarlos al .gitignore
+
 
 ---
 
