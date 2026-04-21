@@ -18,8 +18,6 @@ Antes de iniciar la práctica considerar
 * En su máquina local tener instalado python y un manejador de entornos
 * En su máquina local instalar docker (MUY IMPORTANTE), para ello, revisar la información del archivo llamado **instalacion_docker_ubuntu_24_04.md**
 
-### CAPTURA EVIDENCIA 
-<img width="1192" height="870" alt="imagen" src="https://github.com/user-attachments/assets/39fcbde4-3fbe-40e5-a9be-52c0697c4f1b" />
 
 ---
 
@@ -37,6 +35,10 @@ docker run -d \
 postgres
 
 ```
+
+### CAPTURA EVIDENCIA 
+<img width="1192" height="870" alt="imagen" src="https://github.com/user-attachments/assets/39fcbde4-3fbe-40e5-a9be-52c0697c4f1b" />
+
 
 ---
 
@@ -63,6 +65,11 @@ INSERT INTO empleados VALUES
 (4,'Maria','TI',1400);
 
 ```
+
+### CAPTURA EVIDENCIA 
+
+<img width="750" height="529" alt="imagen" src="https://github.com/user-attachments/assets/d746dc40-10be-4780-891f-74f44c7d0cf3" />
+
 ---
 
 ## 3. API FastAPI
