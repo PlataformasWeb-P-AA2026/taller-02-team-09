@@ -364,7 +364,7 @@ streamlit run app.py --server.address 0.0.0.0
   * Agregar las capturas de pantalla en un archivo llamado EVIDENCIAS.md
 
 ## CAPTURA EVIDENCIA 
-<img width="1600" height="969" alt="imagen" src="https://github.com/user-attachments/assets/af36bb2d-b8be-4fbe-84ff-188956fc3c1d" />
+<img width="1600" height="1000" alt="imagen" src="https://github.com/user-attachments/assets/515c853b-4ff6-4381-ab1c-40e98035ec75" />
 
 
 ---
