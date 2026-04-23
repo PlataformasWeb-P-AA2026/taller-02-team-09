@@ -266,6 +266,9 @@ GRANT USAGE, SELECT ON SEQUENCE empleados_id_seq TO apiuser;
 
 \q
 ```
+### CAPTURA EVIDENCIA 
+<img width="1047" height="598" alt="imagen" src="https://github.com/user-attachments/assets/069a2cc3-f2f2-4241-bbfd-2f73504fd8c9" />
+
 
 
 * Permitir acceso remoto:
@@ -282,11 +285,18 @@ sudo vim /etc/postgresql/*/main/pg_hba.conf
 Agregar:
 host all all 0.0.0.0/0 md5
 ```
+## CAPTURA EVIDENCIA 
+
+<img width="1600" height="479" alt="imagen" src="https://github.com/user-attachments/assets/fc37d34a-eba0-4d93-9bae-04b085b5e13f" />
+
+
 * Reiniciar postgres
 
 ```
 sudo systemctl restart postgresql
 ```
+
+
 
 ---
 
@@ -352,6 +362,10 @@ streamlit run app.py --server.address 0.0.0.0
   * En función de la IP del server de visualización, verificar que todo funcione
   * Agregar capturas de pantalla del funcionamiento de todas las máquinas virtuales, API funcionando, Streamlit funcionando, base de datos con datos
   * Agregar las capturas de pantalla en un archivo llamado EVIDENCIAS.md
+
+## CAPTURA EVIDENCIA 
+<img width="1600" height="969" alt="imagen" src="https://github.com/user-attachments/assets/af36bb2d-b8be-4fbe-84ff-188956fc3c1d" />
+
 
 ---
 
