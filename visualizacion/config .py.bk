@@ -1,0 +1,2 @@
+# config.py en visualización
+API_URL = "http://10.253.88.xxx:xxxx/xxxxx"
