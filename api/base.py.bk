@@ -1,0 +1,10 @@
+import psycopg2
+
+def conectar():
+    """Configuración de la conexión a la base de datos"""
+    return psycopg2.connect(
+        host="10.xxx.xx.xx",  # Cuando estés en Multipass, aquí pondrás la IP de 'base1'
+        dbname="nombre de la base",
+        user="usuario",
+        password="contraseña"
+    )
